@@ -1,0 +1,467 @@
+1
+00:00:01,147 --> 00:00:02,063
+Hello my name is kapil from group no 1 .
+
+2
+00:00:03,144 --> 00:00:06,140
+Kapil, I'm group 1. Today I've presenting
+
+3
+00:00:06,140 --> 00:00:07,638
+the demo video.
+
+4
+00:00:10,061 --> 00:00:12,971
+Import libraries which are essential
+
+5
+00:00:12,971 --> 00:00:15,880
+pandas numpy method and see
+
+6
+00:00:15,880 --> 00:00:18,208
+what loading data set.
+
+7
+00:00:22,456 --> 00:00:25,178
+Then after check some missing value, we
+
+8
+00:00:25,178 --> 00:00:27,512
+verified data types and understood the
+
+9
+00:00:27,512 --> 00:00:29,067
+data size and what.
+
+10
+00:00:29,965 --> 00:00:32,341
+Then after combined
+
+11
+00:00:32,341 --> 00:00:34,717
+the title and
+
+12
+00:00:34,717 --> 00:00:37,093
+body of features
+
+13
+00:00:37,093 --> 00:00:39,470
+then remove the
+
+14
+00:00:39,470 --> 00:00:41,846
+non-english review for
+
+15
+00:00:41,846 --> 00:00:44,222
+better modeling model
+
+16
+00:00:44,222 --> 00:00:46,599
+function, better functional
+
+17
+00:00:46,599 --> 00:00:48,183
+model then.
+
+18
+00:00:50,028 --> 00:00:52,844
+I do feature engineering to
+
+19
+00:00:52,844 --> 00:00:55,661
+remove the URL, hashtags, numbers,
+
+20
+00:00:55,661 --> 00:00:58,478
+punctuation, space key on the
+
+21
+00:00:58,478 --> 00:01:01,295
+extra remove spaces and then
+
+22
+00:01:01,295 --> 00:01:04,112
+put it into a plain
+
+23
+00:01:04,112 --> 00:01:06,570
+text. So
+
+24
+00:01:06,570 --> 00:01:09,053
+after that I
+
+25
+00:01:09,053 --> 00:01:10,709
+have 1412.
+
+26
+00:01:12,773 --> 00:01:15,567
+1412 data set. So I
+
+27
+00:01:15,567 --> 00:01:18,361
+do some PDA exploratory data
+
+28
+00:01:18,361 --> 00:01:21,155
+analysis. Inside that I find
+
+29
+00:01:21,155 --> 00:01:23,949
+the bar plot for rating
+
+30
+00:01:23,949 --> 00:01:26,743
+how many, how many are.
+
+31
+00:01:27,760 --> 00:01:30,409
+How many, how many, how many
+
+32
+00:01:30,409 --> 00:01:32,616
+positives and how many negatives?
+
+33
+00:01:33,763 --> 00:01:36,423
+From 1:00 to 1:00 to
+
+34
+00:01:36,423 --> 00:01:39,082
+5:00 inside that we see
+
+35
+00:01:39,082 --> 00:01:41,742
+I see a text length
+
+36
+00:01:41,742 --> 00:01:44,402
+observing verifiable variation in length
+
+37
+00:01:44,402 --> 00:01:47,061
+review. Long review are often
+
+38
+00:01:47,061 --> 00:01:49,189
+more detail and sentiment.
+
+39
+00:01:50,316 --> 00:01:52,818
+Then boxplot of rating and
+
+40
+00:01:52,818 --> 00:01:55,320
+text length. High rating tend
+
+41
+00:01:55,320 --> 00:01:57,823
+to be high, moderate length
+
+42
+00:01:57,823 --> 00:02:00,307
+review. Very long
+
+43
+00:02:00,307 --> 00:02:02,950
+review, sometimes indicating mixed or
+
+44
+00:02:02,950 --> 00:02:04,007
+negative sentiments.
+
+45
+00:02:05,552 --> 00:02:06,978
+Sentiment mapping.
+
+46
+00:02:08,085 --> 00:02:10,907
+Sentiment mapping measure majority of.
+
+47
+00:02:12,632 --> 00:02:15,508
+Reviews are positive and few negatives
+
+48
+00:02:15,508 --> 00:02:18,384
+are few. Fewer negative and neutral
+
+49
+00:02:18,384 --> 00:02:21,355
+reviews. Classes imbalance. Then
+
+50
+00:02:21,355 --> 00:02:24,136
+after I do boxplot for
+
+51
+00:02:24,136 --> 00:02:26,917
+text and text length and
+
+52
+00:02:26,917 --> 00:02:29,697
+V sentiment analysis, negative review
+
+53
+00:02:29,697 --> 00:02:32,478
+are often long and more
+
+54
+00:02:32,478 --> 00:02:35,459
+descriptive. And positive reviews
+
+55
+00:02:35,459 --> 00:02:38,088
+are usually short and direct.
+
+56
+00:02:38,088 --> 00:02:40,717
+After that correlation analysis, text
+
+57
+00:02:40,717 --> 00:02:43,346
+based feature play a more
+
+58
+00:02:43,346 --> 00:02:45,449
+important role than numeric.
+
+59
+00:02:46,266 --> 00:02:47,892
+What are sentiment analysis?
+
+60
+00:02:48,640 --> 00:02:51,430
+So. Generate
+
+61
+00:02:51,430 --> 00:02:53,898
+sentiment score, positive, neutral,
+
+62
+00:02:53,898 --> 00:02:55,749
+negative compound score.
+
+63
+00:02:57,135 --> 00:02:59,959
+So I have 72% accuracy of
+
+64
+00:02:59,959 --> 00:03:02,313
+voter sentiment analysis. Short sentence
+
+65
+00:03:02,313 --> 00:03:04,195
+social media like text.
+
+66
+00:03:04,893 --> 00:03:07,843
+Inside. Stop
+
+67
+00:03:07,843 --> 00:03:10,259
+words so reducing
+
+68
+00:03:10,259 --> 00:03:12,676
+noise improve meaningful
+
+69
+00:03:12,676 --> 00:03:14,287
+words represent.
+
+70
+00:03:16,101 --> 00:03:19,080
+Then after train test split
+
+71
+00:03:19,080 --> 00:03:22,059
+into 80% into train and
+
+72
+00:03:22,059 --> 00:03:23,251
+20% into.
+
+73
+00:03:25,913 --> 00:03:28,727
+Then after that tfidf feature
+
+74
+00:03:28,727 --> 00:03:31,631
+is extraction. So convert
+
+75
+00:03:31,631 --> 00:03:34,256
+into text into numeric numerical
+
+76
+00:03:34,256 --> 00:03:36,882
+for using tfidf. Major important.
+
+77
+00:03:38,378 --> 00:03:41,005
+Out of Word is a documentary
+
+78
+00:03:41,005 --> 00:03:43,632
+relative of data reducing impact of
+
+79
+00:03:43,632 --> 00:03:46,259
+common words. This type is critical
+
+80
+00:03:46,259 --> 00:03:48,011
+based on our model.
+
+81
+00:03:48,918 --> 00:03:51,142
+Can't process raw text.
+
+82
+00:03:53,176 --> 00:03:55,499
+So model training and evaluation.
+
+83
+00:03:56,815 --> 00:03:59,603
+Also inside the model training
+
+84
+00:03:59,603 --> 00:04:01,832
+logistic regression multinomial multi
+
+85
+00:04:01,832 --> 00:04:04,575
+nominee. Linear Support
+
+86
+00:04:04,575 --> 00:04:06,899
+vector classification, Random forest team
+
+87
+00:04:06,899 --> 00:04:09,687
+gradient boosting. This kind of model
+
+88
+00:04:09,687 --> 00:04:10,616
+I used.
+
+89
+00:04:13,677 --> 00:04:16,495
+After that I see some accuracy
+
+90
+00:04:16,495 --> 00:04:18,374
+all over all that.
+
+91
+00:04:19,421 --> 00:04:20,249
+Although.
+
+92
+00:04:21,934 --> 00:04:24,599
+I am so bad. From
+
+93
+00:04:24,599 --> 00:04:27,264
+all the model evaluation I
+
+94
+00:04:27,264 --> 00:04:29,929
+see Linear Support Vector classification
+
+95
+00:04:29,929 --> 00:04:32,594
+is best. It gives 8581%
+
+96
+00:04:32,594 --> 00:04:33,661
+of accuracy.
+
+97
+00:04:34,777 --> 00:04:37,450
+So. After that.
+
+98
+00:04:41,119 --> 00:04:42,898
+After that classification report
+
+99
+00:04:42,898 --> 00:04:45,587
+insights. Precision
+
+100
+00:04:45,587 --> 00:04:48,447
+value recall. Is
+
+101
+00:04:48,447 --> 00:04:51,311
+high handle high dimension TF IDF
+
+102
+00:04:51,311 --> 00:04:53,556
+data?Robust
+
+103
+00:04:53,556 --> 00:04:55,925
+against Robust against
+
+104
+00:04:55,925 --> 00:04:56,715
+overfitting.
+
+105
+00:04:58,380 --> 00:05:00,944
+Confusion matrix. Strong
+
+106
+00:05:00,944 --> 00:05:03,894
+performed in Class 2. Positive.
+
+107
+00:05:03,894 --> 00:05:06,844
+Some confusion between neutral and
+
+108
+00:05:06,844 --> 00:05:09,794
+negative model. Predict dominant class
+
+109
+00:05:09,794 --> 00:05:10,974
+more confidently.
+
+110
+00:05:13,537 --> 00:05:16,096
+Then I dumped into TFIDF
+
+111
+00:05:16,096 --> 00:05:18,656
+pickle pickle file and sweet
+
+112
+00:05:18,656 --> 00:05:21,215
+vector and SVC open sentiment
+
+113
+00:05:21,215 --> 00:05:22,751
+model pick 5.
+
+114
+00:05:25,503 --> 00:05:26,689
+So this is the.
+
+115
+00:05:27,926 --> 00:05:29,970
+Streamlet UI code.
+
+116
+00:05:32,543 --> 00:05:35,208
+And this is the API. I also
+
+117
+00:05:35,208 --> 00:05:36,731
+use API for that.
